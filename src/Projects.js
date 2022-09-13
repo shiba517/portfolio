@@ -22,8 +22,8 @@ function Projects(props) {
                                     <Card.Text>{project.description}</Card.Text>
                                 </Card.Body>
                                 <Card.Footer>
-                                    <Button className='my_button' href={project.url}>Visit</Button>
-                                    <Button className='my_button' href={project.github}>
+                                    <Button className='my_button' href={project.url} target="_blank">Visit</Button>
+                                    <Button className='my_button' href={project.github} target="_blank">
                                         {React.createElement(FontAwesome['FaGithubSquare'])}
                                     </Button>
                                 </Card.Footer>
