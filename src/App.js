@@ -30,6 +30,9 @@ function App() {
                 },
                 {name: 'Bubble Game', description: "This is a project that I have made because I wanted a taste of what it's like to create a game. I used HTML <canvas> element and mainly coded in JavaScript. The game is not complete and further info regarding the state of the game can be found in the README. I hope you will enjoy playing the game!",
                 url: 'https://shiba517.github.io/bubble_game/', image: '/assets/images/bubble_game_image.png', github: 'https://github.com/shiba517/bubble_game'
+                },
+                {name: 'Portfolio', description: "This is my personal portfolio. I created this using React and deployed it on netlify.com",
+                url: 'https://boisterous-griffin-71958e.netlify.app/', image: '/assets/images/personal_website_image.png', github: 'https://github.com/shiba517/portfolio'
                 }
             ],
             contacts: [
@@ -60,8 +63,10 @@ function App() {
                 {card: [
                     {title: 'Education',
                     fa_icon: 'FaUserGraduate',
-                    context: 'Code Institute (grad. 2022) - Full Stack Developer'}
+                    context: 'Code Institute (grad. 2022) - Full Stack Developer'},
+                    
                 ]},
+                
             ]     
         }
     ]
