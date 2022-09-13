@@ -19,7 +19,7 @@ function HeroSection(props) {
                 </div>
                 <div className='text-center my_socialmediaicons'>
                     {props.socialmediaPlatforms.map((platform) => (
-                        <a href={platform.url}>
+                        <a href={platform.url} target="_blank">
                             {React.createElement(FontAwesome[platform.fa_icon])}
                         </a>
                         ))}
