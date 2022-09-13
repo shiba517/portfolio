@@ -21,3 +21,8 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# my scrap files
+Notes.txt
+portfolio_video_notes.txt
+src\assets\images\me.jpg

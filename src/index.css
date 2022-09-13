@@ -1,13 +1,259 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+    --colour-1: #B37D4E;
+    --colour-2: #286DA8;
+    --colour-3: #CD5360;
+    --colour-4: #DFDCE3;
+    --colour-5: #438496;
+    --colour-6: #d9b310;
+    --colour-7: #007849;
+    --colour-8: #473567;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+    /* background-color: var(--colour-1); */
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+
+}
+
+
+/* Universal */
+h2 {
+    color: #d9b310;
+}
+
+.my_card {
+    margin: 1rem 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* place-items: center; */
+    background-color: #efca96;
+}
+
+.my_button {
+    background-color: var(--colour-6);
+    border: none;
+    color: black;
+}
+
+
+/* Navigation */
+.my_navigation {
+    background-color: var(--colour-6);
+    display: block;
+    z-index: 2;
+    position: fixed;
+    /* width: 100vw; */
+    bottom: 2rem;
+    padding: 0.5rem 1.5rem;
+    border-radius: 3rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(205, 83, 96, 0.8);
+}
+
+.my_navigation > a {
+    margin: 0.5rem;
+    color: black;
+}
+
+
+/* HeroSection */
+.my_herosection {
+    height: 95vh;
+    /* background-image: 'src\assets\images\ax6c_9utv_210816.jpg'; */
+    background-image: url('./assets/images/ax6c_9utv_210816.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.my_title {
+    /* border: solid; */
+    font-size: 4rem;
+    color: rgb(170, 29, 29);
+    /* background-color: var(--colour-3); */
+    padding: 0;
+    margin: 0;
+    /* background-color: rgba(205, 83, 96, 0.8); */
+
+}
+
+.my_socialmediaicons {
+    margin: 1rem 0;
+}
+
+.my_socialmediaicons > a {
+    color: var(--colour-3);
+    margin-inline: 0.5rem;
+    font-size: 1.3rem;
+}
+
+
+/* AboutMe */
+#aboutme_section {
+    background-color: var(--colour-6);
+    background-color: #473567;
+    background-color: #d9b310;
+    min-height: 95vh;
+    padding-top: 5vh;
+    /* background-color: #e5e5f7; */
+    /* opacity: 0.9; */
+    background-image: linear-gradient(to right, #473567, #473567 5px, #39195c 5px, #39195c );
+    background-size: 10px 100%;
+    /* z-index: -4; */
+}
+
+#aboutme_section h2 {
+    margin-bottom: 2rem;
+    color: var(--colour-6);
+}
+
+#aboutme_section .my_card {
+    width: 70%;
+    aspect-ratio: 1/1;
+    border-radius: 1rem;
+}
+
+#aboutme_section .my_button {
+    background-color: #CD5360;
+}
+
+#aboutme_section .my_icon {
+    padding-bottom: 1rem;
+    font-size: 1.8rem;
+}
+
+.my_image_area {
+    /* width: 100%; */
+    aspect-ratio: 1/1;
+    /* background: linear-gradient(45deg, transparent, #473567), transparent; */
+    display: grid;
+    /* place-items: center; */
+}
+
+.my_image_me {
+    /* width: 100%; */
+    height: 90%;
+    /* aspect-ratio: 1/1; */
+    /* place-items: center; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    overflow: hidden;
+    transform: rotate(5deg);
+    transition: 0.5s;
+}
+
+.my_card_aboutme_context {
+    margin: 1rem 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* place-items: center; */
+    background-color: #efca96;
+    /* width: 70%; */
+    border-radius: 1rem;
+}
+
+.my_image_me:hover {
+    transform: rotate(0);
+}
+
+.my_table {
+    /* border: none; */
+}
+
+@media (max-width: 576px) {
+    #aboutme_section .my_card {
+        /* width: 70%; */
+        aspect-ratio: 0;
+        border-radius: 1rem;
+        /* margin: 1rem; */
+        padding: 1rem 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .my_image_me {
+        width: auto;
+        height: auto;
+    }
+}
+
+@media (min-width: 768px) {
+    #aboutme_section .my_card {
+        width: 100%;
+    }
+}
+
+
+
+
+/* Projects */
+#projects_section {
+    background-color: var(--colour-7);
+    background-color: #39195c;
+    background-image: url('./assets/images/animated_shape_bg.svg');
+    background-size: cover;
+    min-height: 95vh;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+#projects_section img {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+#projects_section .my_card {
+    background-color: #CD5360;
+}
+
+#projects_section .my_button {
+    background-color: #d9b310;
+    margin: 0 0.2rem;
+}
+
+@media (max-width: 768px) {
+    #projects_section .my_card {
+        
+    }
+}
+
+/* Contact */
+#contact_section {
+    /* min-height: 100vh; */
+    padding-top: 5vh;
+    background-color: black;
+    background-color: #1d063a;
+    color: #DFDCE3;
+    padding-bottom: 5vh;
+    /* background-image: url('./assets/images/wave_line_bg.svg'); */
+    /* background-size: cover; */
+}
+
+#contact_section .my_card {
+    width: 70%;
+    background-color: transparent;
+    border: solid #39195c;
+}
+
+#contact_section .my_card .my_button {
+    /* background-color: #CD5360; */
+    background-color: transparent;
+    margin: 0;
+    color: #DFDCE3;
+}
+
+#contact_section .my_card .my_icon {
+    font-size: 3rem;
+}
+
+.my_form {
+    /* background-color: var(--colour-4); */
+    /* border: 3px solid; */
+    border-radius: 0.5rem;
+    border-color: var(--colour-7);
+    padding: 1rem;
 }
