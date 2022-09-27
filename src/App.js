@@ -33,6 +33,9 @@ function App() {
                 },
                 {name: 'Portfolio', description: "This is my personal portfolio. I created this using React and deployed it on netlify.com",
                 url: 'https://boisterous-griffin-71958e.netlify.app/', image: '/assets/images/personal_website_image.png', github: 'https://github.com/shiba517/portfolio'
+                },
+                {name: 'Spotify Mood Bot', description: "A voice recognition project where the bot will give you a playlist from Spotify depending on what you tell him. I created this using JavaScript and React.",
+                url: 'https://poetic-truffle-19c21c.netlify.app/', image: '/assets/images/spotify_mood_bot_image.png', github: 'https://github.com/shiba517/spotifymoodbot'
                 }
             ],
             contacts: [
