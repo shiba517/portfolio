@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import CV_from_SHIBA_DEB from './assets/cv/cv_shiba_deb.pdf'
+import CV_from_SHIBA_DEB from './assets/cv/shiba_deb_cv.pdf'
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/esm/Container';
 import Row from 'react-bootstrap/esm/Row';
