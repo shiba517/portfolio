@@ -46,7 +46,7 @@ function App() {
                 {card: [
                     {title: 'Bio',
                     fa_icon: 'FaSmileBeam',
-                    context: 'I am a recently graduated Junior Fullstack Software Developer knocking on the doors of the tech world to start a new chapter in my life. Comfortable in my skills of SQL, JavaScript, Python, Django, MongoDB, AWS, and HTML & CSS. I also bring experience in communications with the public which came in use whilst working in the hospitality industry, and have been exposed to the world of creativity with my time in hair and beauty. Creative, collaborative, and certainly open to challenges.'}
+                    context: 'I am a Fullstack Developer with proficiency in HTML, CSS, SQL, JavaScript, Python, Django, MongoDB, PHP, React, Vue and Laravel. I also bring experience in communications with the public which came in use whilst working in the hospitality industry, and have been exposed to the world of creativity with my time in hair and beauty. Creative, collaborative, and certainly open to challenges. '}
                 ]},
                 {card: [
                     {title: 'Skills',
