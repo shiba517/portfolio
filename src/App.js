@@ -64,10 +64,15 @@ function App() {
                     ]}
                 ]},
                 {card: [
-                    {title: 'Education',
-                    fa_icon: 'FaUserGraduate',
-                    context: 'Code Institute (grad. 2022) - Full Stack Developer'},
-                    
+                    {
+                        title: 'Education',
+                        fa_icon: 'FaUserGraduate',
+                        context: 'Code Institute (grad. 2022) - Full Stack Developer',
+                        context2: [
+                            { title: 'Code Institute (grad. 2022) - Full Stack Developer'},
+                            { title: 'Business & Marketing (grad, 2012) - BA(2:2)'}
+                        ]
+                    },
                 ]},
                 
             ]     

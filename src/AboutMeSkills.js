@@ -10,15 +10,16 @@ import Button from 'react-bootstrap/esm/Button';
 import * as FontAwesome from 'react-icons/fa'
 import Table from 'react-bootstrap/esm/Table'
 
-function AboutMeSkills(props) {
-    // const string_content = JSON.stringify(props.mySkills.context)  // Returns context
-    // console.log(typeof JSON.stringify(props))
-    const c = props.mySkills.context
-    // console.log(c)
-
-    if (props.mySkills.title == 'Bio' || props.mySkills.title == 'Education') {
+function AboutMeSkills(props) {  
+    if (props.mySkills.title == 'Bio') {
         return (
             <p>{props.mySkills.context}</p>
+        )
+    } else if (props.mySkills.title == 'Education') {        
+        return (
+            (props.mySkills.context2).map((ed, i) => (
+                <p>{props.mySkills.context2[i].title}</p>
+            ))
         )
     }
     else {
