@@ -11,17 +11,31 @@ import Card from 'react-bootstrap/esm/Card';
 import Button from 'react-bootstrap/esm/Button';
 import Form from 'react-bootstrap/esm/Form'
 import * as FontAwesome from 'react-icons/fa'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import { Anchor } from 'react-bootstrap';
 
 
 function Contact(props) {
     const form = useRef();
+    const notify = () => toast.success('Your message has been sent! I will get back to you ASAP', {
+        position: "top-center",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "dark",
+        });
 
     const sendEmail = (e) => {
         e.preventDefault();
 
         emailjs.sendForm('service_cu0f3hf', 'template_uzer46i', form.current, 'QQIQKCJhbm8iZeSbA')
             .then((result) => {
-                console.log(result.text);
+                // console.log(result.text);
+                notify();
             }, (error) => {
                 console.log(error.text);
             });
@@ -40,16 +54,17 @@ function Contact(props) {
                                 <Col sm={4} md={12}>
                                     <Card className='my_card text-center'>
                                         <Card.Body>
-                                            <Card.Title className='my_icon'>{React.createElement(FontAwesome[contact.fa_icon])}</Card.Title>
+                                            {/* <Card.Title className='my_icon'>{React.createElement(FontAwesome[contact.fa_icon])}</Card.Title> */}
+                                            <Card.Title>
+                                                <Anchor className='my_icon' href={contact.href}>{React.createElement(FontAwesome[contact.fa_icon])}</Anchor>
+                                            </Card.Title>
                                         </Card.Body>
                                         <Card.Footer>
-                                            <Button className='my_button' href={contact.href}>{contact.name}</Button>
+                                            <Button href={contact.href} className='my_button' >{contact.name}</Button>
                                         </Card.Footer>
                                     </Card>
                                 </Col>
                             ))}
-                            
-                            
                         </Row>
                     </Col>
                     <Col md={8}>
@@ -69,6 +84,7 @@ function Contact(props) {
                             <Button className='my_button' type="submit">
                                 Send message
                             </Button>
+                            <ToastContainer />
                         </Form>
                     </Col>
                 </Row>

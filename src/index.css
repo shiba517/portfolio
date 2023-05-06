@@ -246,6 +246,7 @@ h2 {
 
 #contact_section .my_card .my_icon {
     font-size: 3rem;
+    color: var(--colour-6);
 }
 
 .my_form {
