@@ -11,7 +11,7 @@ function Projects(props) {
     return (
         <section id='projects_section'>
             <Container className='container'>
-                <h2 className='text-center'>Projects</h2>
+                <h2 className='text-center fw-bold'>Projects</h2>
                 <Row>                  
                     {props.allProjects.map((project) => (
                         <Col sm={6} md={4} className='card-group'>

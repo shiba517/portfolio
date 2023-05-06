@@ -148,9 +148,7 @@ h2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    /* place-items: center; */
     background-color: #efca96;
-    /* width: 70%; */
     border-radius: 1rem;
 }
 
@@ -206,6 +204,7 @@ h2 {
 
 #projects_section .my_card {
     background-color: #CD5360;
+    border-radius: 1rem;
 }
 
 #projects_section .my_button {

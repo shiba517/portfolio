@@ -34,7 +34,7 @@ function AboutMe2(props) {
     return (
         <section id='aboutme_section'>
             <Container>
-                <h2 className='text-center'>About Me</h2>
+                <h2 className='text-center fw-bold'>About Me</h2>
                 <Row>
                     <Col md={6} className='my_image_area'>
                         <Image src={me} className='my_image_me img-thumbnail'></Image>

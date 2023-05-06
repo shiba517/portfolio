@@ -46,7 +46,7 @@ function Contact(props) {
     return (
         <section id='contact_section'>
             <Container>
-                <h2 className='text-center'>Get in touch</h2>
+                <h2 className='text-center fw-bold'>Get in touch</h2>
                 <Row >
                     <Col md={4} >
                         <Row>
