@@ -52,15 +52,10 @@ function App() {
                     {title: 'Skills',
                     fa_icon: 'FaMugHot',
                     context: [
-                        // {headingName: 'Languages', items: [{name: 'JavaScript'}, {name: 'Python'}, {name: 'HTML5'}, {name: 'CSS3'}]},
-                        // {headingName: 'Languages2', items: [{name: 'JavaScript2'}, {name: 'Python2'}, {name: 'HTML52'}, {name: 'CSS32'}]},
-                        // {headingName: 'Languages3', items: [{name: 'JavaScript'}, {name: 'Python'}, {name: 'HTML5'}, {name: 'CSS3'}]},
-                        // {headingName: 'Languages4', items: [{name: 'JavaScript'}, {name: 'Python'}, {name: 'HTML5'}, {name: 'CSS3'}]},
-
-                        {headingName: 'Languages', items: ['JavaScript', 'Python', 'HTML5', 'CSS3', 'SQL']},
-                        {headingName: 'Databases', items: ['Django', 'MongoDB', 'Django', 'PySpark', 'Pig', 'MySQL']},
-                        {headingName: 'Frameworks/Libraries', items: ['Jquery', 'React', 'Bootsrap', 'Materialize', 'Hadoop', 'Boto3', 'Streamlit', 'Pandas']},
-                        {headingName: 'Version Control', items: ['Github']}
+                        {name: 'Languages', items: ['JavaScript', 'Python', 'HTML5', 'CSS3', 'SQL', 'PHP']},
+                        {name: 'Databases', items: ['Django', 'MongoDB', 'Django', 'MySQL']},
+                        {name: 'Frameworks & Libraries', items: ['Jquery', 'Django', 'Reaect', 'Vue', 'Node', 'Laravel', 'Laravel Nova', 'Bootstrap', 'Materialize', 'Tailwind']},
+                        // {name: 'Version Control', items: ['Github']}
                     ]}
                 ]},
                 {card: [
@@ -70,7 +65,7 @@ function App() {
                         context: 'Code Institute (grad. 2022) - Full Stack Developer',
                         context2: [
                             { title: 'Code Institute (grad. 2022) - Full Stack Developer'},
-                            { title: 'Business & Marketing (grad, 2012) - BA(2:2)'}
+                            { title: 'Business & Marketing (grad. 2012) - BA(2:1)'}
                         ]
                     },
                 ]},

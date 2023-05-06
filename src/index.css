@@ -10,9 +10,7 @@
 }
 
 body {
-    /* background-color: var(--colour-1); */
-    font-family:Verdana, Geneva, Tahoma, sans-serif
-
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
@@ -60,7 +58,7 @@ h2 {
 
 /* HeroSection */
 .my_herosection {
-    height: 95vh;
+    height: 100vh;
     /* background-image: 'src\assets\images\ax6c_9utv_210816.jpg'; */
     background-image: url('./assets/images/ax6c_9utv_210816.jpg');
     background-position: center;
@@ -94,7 +92,7 @@ h2 {
     background-color: var(--colour-6);
     background-color: #473567;
     background-color: #d9b310;
-    min-height: 95vh;
+    min-height: 100vh;
     padding-top: 5vh;
     /* background-color: #e5e5f7; */
     /* opacity: 0.9; */
@@ -196,7 +194,7 @@ h2 {
     background-color: #39195c;
     background-image: url('./assets/images/animated_shape_bg.svg');
     background-size: cover;
-    min-height: 95vh;
+    min-height: 100vh;
     padding-top: 5vh;
     padding-bottom: 5vh;
 }

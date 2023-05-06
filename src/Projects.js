@@ -18,7 +18,7 @@ function Projects(props) {
                             <Card className='my_card d-flex align-items-start flex-column'>
                                 <Card.Body>
                                     <img src={project.image}></img>
-                                    <Card.Title>{project.name}</Card.Title>
+                                    <Card.Title className='fw-bold'>{project.name}</Card.Title>
                                     <Card.Text>{project.description}</Card.Text>
                                 </Card.Body>
                                 <Card.Footer className='w-100 align-text-bottom d-flex align-items-end flex-column'>
