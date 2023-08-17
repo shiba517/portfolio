@@ -19,8 +19,11 @@ function App() {
                 {name: 'Kirj', description: 'A gaming website created using React. Gaming, news, and weather data on screen collected via API calling',
                 url: 'https://endearing-pavlova-c21280.netlify.app/', image: '/assets/images/kirj_image.png', github: 'https://github.com/shiba517/client'
                 },
-                {name: 'Secret Underground Lockdown Football Tournament', description: 'This was my submission for the my first project at the Code Institute - Full Stack Developer course. It is a basic HTML5 and CSS page',
-                url: 'https://shiba517.github.io/MLSP1-SULFT/', image: '/assets/images/sulft_card_image.png', github: 'https://github.com/shiba517/MLSP1-SULFT'
+                {name: 'Jibber', description: "A website targeted at the creatives with a pen. Upload short stories for people from all over the world to read and share. This was created using Python and Django",
+                url: 'https://jibber.onrender.com/', image: '/assets/images/jibber_image.png', github: 'https://github.com/shiba517/jibber'
+                },
+                {name: 'Bubble Game', description: "This is a project that I have made because I wanted a taste of what it's like to create a game. I used HTML <canvas> element and mainly coded in JavaScript. The game is not complete and further info regarding the state of the game can be found in the README. I hope you will enjoy playing the game!",
+                url: 'https://shiba517.github.io/bubble_game/', image: '/assets/images/bubble_game_image.png', github: 'https://github.com/shiba517/bubble_game'
                 },
                 {name: 'The Memory Game', description: 'This is the project I submitted for my second assignment. Match the cards on top with the overturned cards. It was made with HTML5, CSS, JS and JQuery',
                 url: 'https://shiba517.github.io/MSP2-The-Memory-Game/', image: '/assets/images/the_memory_game_image.png', github: 'https://github.com/shiba517/MSP2-The-Memory-Game'
@@ -28,8 +31,8 @@ function App() {
                 {name: 'Find me Talent', description: 'This is a project that lets you find football talents via filtering and viewing player data in a graphical format. Demonstrates skills in SQL, NoSQL, Python, Pandas, Streamlit, and ELT/ETL.',
                 url: 'https://shiba517-find-me-talent-main-zk90hn.streamlitapp.com/', image: '/assets/images/find_me_talent_image.png', github: 'https://github.com/shiba517/find-me-talent'
                 },
-                {name: 'Bubble Game', description: "This is a project that I have made because I wanted a taste of what it's like to create a game. I used HTML <canvas> element and mainly coded in JavaScript. The game is not complete and further info regarding the state of the game can be found in the README. I hope you will enjoy playing the game!",
-                url: 'https://shiba517.github.io/bubble_game/', image: '/assets/images/bubble_game_image.png', github: 'https://github.com/shiba517/bubble_game'
+                {name: 'Secret Underground Lockdown Football Tournament', description: 'This was my submission for the my first project at the Code Institute - Full Stack Developer course. It is a basic HTML5 and CSS page',
+                url: 'https://shiba517.github.io/MLSP1-SULFT/', image: '/assets/images/sulft_card_image.png', github: 'https://github.com/shiba517/MLSP1-SULFT'
                 },
                 {name: 'Portfolio', description: "This is my personal portfolio. I created this using React and deployed it on netlify.com",
                 url: 'https://boisterous-griffin-71958e.netlify.app/', image: '/assets/images/personal_website_image.png', github: 'https://github.com/shiba517/portfolio'
